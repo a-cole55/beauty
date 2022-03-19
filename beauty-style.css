@@ -598,14 +598,14 @@ footer h3{
         height:40em;
     }
     .team{
-        width:25%;
+        width:33%;
         padding:0;
         margin-right: 0;
 
     }
     .team img{
-        height:250px;
-        width:160px;
+        height:25em;
+        width:15em;
     }
     .nameBox{
         width:100px;

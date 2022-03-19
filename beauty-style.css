@@ -598,7 +598,7 @@ footer h3{
         height:40em;
     }
     .team{
-        width:33.3333%;
+        width:30%;
         padding:0;
         margin-right: 0;
 
@@ -646,7 +646,7 @@ footer h3{
         margin:0 0 0 4%;
     }
     .lookbook{
-        width:48em;
+        width:45em;
         height:60em;
         display:flex;
         flex-wrap: wrap;

@@ -598,7 +598,7 @@ footer h3{
         height:40em;
     }
     .team{
-        width:30%;
+        width:25%;
         padding:0;
         margin-right: 0;
 
@@ -646,8 +646,8 @@ footer h3{
         margin:0 0 0 4%;
     }
     .lookbook{
-        width:45em;
-        height:60em;
+        width:42em;
+        height:55em;
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -655,18 +655,18 @@ footer h3{
     }
     .lookbook .smallImg{
         height:18em;
-        width:15em;
+        width:14em;
         padding:1% 0 0 0;
     }
     .lookbook .longImg{
-        height:30em;
-        width:15em;
+        height:31em;
+        width:14em;
         padding:1% 0.5% 1% 0;
     }
     #emptyBox{
-        height:17.2em;
-        width:14.5em;
-        padding:2% 1% 0 0;
+        height:17.6em;
+        width:13.5em;
+        padding:1% 1% 0 0;
     }
     #emptyBox h3{
         font-size:2rem;

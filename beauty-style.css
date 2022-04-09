@@ -161,6 +161,15 @@ html{
     font:1.5rem 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
 }
+.buttonLinks > a{
+    background-color: black;
+    width:10em;
+    height:4em;
+    color:white;
+    font:1.5rem 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 #hours{
     /* writing-mode: vertical-lr;
     text-orientation: sideways; */

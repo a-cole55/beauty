@@ -11,7 +11,7 @@ html{
     margin:0;
     box-sizing: border-box;
     font-family: 'Gideon Roman', 'Source Sans Pro', sans-serif;
-    font-size:62.5%
+    font-size:62.5%;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -384,6 +384,87 @@ html{
     opacity:0.9;
     width:80%;
     text-align: center;
+}
+#bookNow{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#bookNow h4{
+    font-size: 6rem;
+    margin-bottom: 3%;
+}
+form{
+    width:58em;
+    border:2px solid black;
+    padding:3% 5%;
+    margin-bottom: 5%;
+    background-color: rgb(25, 24, 24);
+    opacity: 0.95;
+    color:white;
+}
+input{
+    width:20em;
+    height:2.5em;
+    border:2px solid black;
+    margin:1.5% 3% 2% 0;
+    background-color: rgb(249, 247, 247);
+}
+
+label{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 38% 10% 0;
+    height:2.5em;
+    letter-spacing: 0.1em;
+}
+#phone{
+    margin-right: 0;
+}
+#tel{
+    margin-right: 0;
+}
+#emailLabel{
+    margin-right:37%;
+}
+#service{
+    margin-right: 0;
+}
+#calendar{
+    width:20em;
+}
+select{
+    width:20.8em;
+    height:3em;
+    border:2px solid black;
+}
+#calendar, #time{
+    width: 20.3em;
+    margin-right: 0;
+}
+#calendar{
+    margin-right:3%;
+}
+#reset, #submit{
+    height:3em;
+    width:8em;
+    margin: 5% 5% 0 5%;
+    border-radius: 0.5em;
+    border:2px solid lightgrey;
+    cursor: pointer;
+    font-weight: bold;
+}
+#reset:hover, #submit:hover{
+    background-color:#C0BBB7;
+    color:white;
+
+}
+#btns{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     background-color:#C0BBB7;

@@ -1,4 +1,5 @@
 Glamour Beauty Static Site
+![beauty-ss-compressed](https://user-images.githubusercontent.com/94746691/172072110-40891eed-55bd-48e0-8c68-e97cb057db6d.jpg)
 
 Description:
 Glamout Beauty is a responsive, static site which allows users to view details regarding the business and schedule an appointment directly from the site. 

@@ -321,9 +321,6 @@ label{
 #service{
     margin-right: 0;
 }
-#calendar{
-    width:20em;
-}
 select{
     width:20.8em;
     height:3em;
@@ -363,7 +360,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family:'Source Sans Pro', sans-serif;
 }
 footer h3{
@@ -424,7 +420,6 @@ footer span > a{
     .lookbook .longImg{
         height:390px;
         width:250px;
-        /* padding:10px 10px 10px 0px; */
     }
     #emptyBox{
         height:230px;
@@ -452,9 +447,6 @@ footer span > a{
         background-size: cover;
         background-position:left center;
         height:50em;
-        /* display:flex;
-        justify-content: flex-start;
-        align-self: flex-end; */
     }
     .main h1{
         color:white;
@@ -478,8 +470,6 @@ footer span > a{
     }
     #services{
         height: 19em;
-        /* margin: 5% 0 0 0;
-        text-align: center; */
     }
     .menuItems{
         margin-right:5%;
@@ -502,11 +492,7 @@ footer span > a{
     }
     #two h2{
         font-size:4rem;
-        /* text-align: right; */
     }
-    /* #two p{
-        text-align: left;
-    } */
     #about img{
         display:none;
     }
@@ -603,4 +589,113 @@ footer span > a{
         font-size:1.2rem;
         margin-bottom: 2%;
     }
+}
+
+@media all and (max-width:680px){
+    form{
+        width:45em;
+    }
+    input{
+        width:15em;
+    }
+    
+    label{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 38% 10% 0;
+        height:2.5em;
+        letter-spacing: 0.1em;
+    }
+    select{
+        width:15.8em;
+        height:3em;
+        border:2px solid #C0BBB7;
+    }
+    #scheduling{
+        width:80%;
+        margin-right:0;
+    }
+    #calendar, #time{
+        width: 15.3em;
+        margin-right: 0;
+    }
+    #calendar{
+        margin-right:3%;
+    }
+    #reset, #submit{
+        margin: 5% 5% 0 1%;
+    }
+
+}
+@media all and (max-width:527px){
+    form{
+        width:38em;
+    }
+    input{
+        width:13em;
+    }
+    
+    label{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 38% 10% 0;
+        height:2.5em;
+        letter-spacing: 0.1em;
+    }
+    select{
+        width:13.6em;
+        height:3em;
+        border:2px solid #C0BBB7;
+    }
+    #scheduling{
+        width:80%;
+        margin-right:0;
+    }
+    #calendar, #time{
+        width: 13.3em;
+        margin-right: 0;
+    }
+    #calendar{
+        margin-right:3%;
+    }
+    #reset, #submit{
+        margin: 5% 5% 0 4%;
+    }
+
+}
+@media all and (max-width:456px){
+    form{
+        width:35em;
+    }
+    input{
+        width:12em;
+    }
+    
+    label{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 38% 10% 0;
+        height:2.5em;
+        letter-spacing: 0.1em;
+    }
+    select{
+        width:12.6em;
+        height:3em;
+        border:2px solid #C0BBB7;
+    }
+    #scheduling{
+        width:80%;
+        margin-right:0;
+    }
+    #calendar, #time{
+        width: 12.1em;
+        margin-right: 0;
+    }
+    #calendar{
+        margin-right:3%;
+    }
+    #reset, #submit{
+        margin: 5% 5% 0 3%;
+    }
+
 }
